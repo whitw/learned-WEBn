@@ -12,6 +12,13 @@
 			border-bottom:solid gray 1px;
 			margin:0;
 		}
+		div {
+			padding-left:5px;
+		}
+		#grid {
+			display:grid;
+			grid-template-columns: 150px 1fr;
+		}
 		/*use in order of a:link, a:visited, a:hover, a:active*/
 		a {
 			font-size:30px;
@@ -31,9 +38,7 @@
 			color:green;
 		}
 		ol {
-			display:inline-block;
 			list-style-type:lower-greek;
-			width:100px;
 			margin:0;
 			margin-left:20px;
 			border-right:solid gray 1px;
@@ -42,11 +47,17 @@
 	</head>
 	<body>
 		<h1>CSS Test</h1>
-		<ol>
-			<li><a href="index.html">list1</a></li>
-			<li><a href="index.html">list2</a></li>
-			<li><a href="index.html">list3</a></li>
-		</ol>
-		content will come here.
+		<div id="grid">
+			<div>
+				<ol>
+					<li><a href="index.html">list1</a></li>
+					<li><a href="index.html">list2</a></li>
+					<li><a href="index.html">list3</a></li>
+				</ol>
+			</div>
+			<div>
+				content will come here.
+			</div>
+		</div>
 	</body>
 </html>
