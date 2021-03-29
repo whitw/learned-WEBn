@@ -1,0 +1,51 @@
+body {
+  margin:0;
+}
+h1 {
+  font-size:50px;
+  text-align:center;
+  border-bottom:solid gray 1px;
+  margin:0;
+}
+div {
+  padding-left:5px;
+}
+#grid  {
+  display:grid;
+  grid-template-columns: auto 1fr;
+}
+/*use in order of a:link, a:visited, a:hover, a:active*/
+a {
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+}
+a:link{
+  color:black;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color:green;
+}
+ol {
+  list-style-type:lower-greek;
+  margin:0;
+  margin-left:20px;
+  border-right:solid gray 1px;
+}
+@media(max-width:300px) {
+  #grid {
+    display:block;
+  }
+  ol {
+    border-right:none;
+  }
+  #article {
+    margin-bottom:30px;
+  }
+}

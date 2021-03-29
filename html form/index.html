@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <font size=50>여기에 form 입력</font>
+    <form action="direct.html" method="post">
+      id: <input type="text" value="여기에 text 입력"> <br>
+      pw: <input type="password" value="****"> <br>
+      <br><br>
+      <select name="fruits">
+        <option value="peach">복숭아</option>
+        <option value="apple">사과</option>
+      </select>
+      <br>
+      <input type="checkbox" name="chk_info">cb1<br>
+      <input type="checkbox" name="chk_info">cb2<br>
+      <input type="checkbox" name="chk_info">cb3<br>
+      <input type="checkbox" name="chk_info">cb4<br>
+      <div>
+      <input type="radio" name="chk_info">r1<br>
+      <input type="radio" name="chk_info">r2<br>
+      <input type="radio" name="chk_info">r3<br>
+      <input type="radio" name="chk_info">r4<br>
+    </div>
+      <br><br>
+      <textarea name="message" rows="10", cols="50">
+textarea:여기에 넣고 싶은 문장을 넣어 주세요.
+      </textarea><br>
+      input[button]:<input type="button" value="onClick" onClick="alert('클릭했습니다.')"><br>
+      button:<button onClick="alert('클릭했습니다.')">onClick</button><br>
+      color:<input type="color" value="#FF0000"><br>
+      date:<input type="date"><br>
+      email:<input type="email"><br>
+      file:<input type="file"><br>
+      number[1,5]:<input type="number" min="1" max="5"><br>
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </body>
+</html>
