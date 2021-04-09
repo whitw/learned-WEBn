@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>설문조사</title>
+  </head>
+  <body>
+    <h1>좋아하는 색에 대한 설문조사</h1>
+    <form action='form_received.html'>
+    <ol>
+      <li>당신의 성별은?
+        <select name='sex'>
+          <option value='male'>남성
+          <option value='female'>여성
+      </select>
+      <li>나이대는?<br>
+        <input name='age' type='radio'>10대 미만
+        <input name='age' type='radio'>10대
+        <input name='age' type='radio'>20대
+        <input name='age' type='radio'>30대
+        <input name='age' type='radio'>40대
+        <input name='age' type='radio'>50대
+        <input name='age' type='radio'>60대 이상
+      <li>좋아하는 색을 골라주세요.
+        <input name='favcolor' type='color'>
+      <li>담당자에 대한 의견을 남겨주세요. <br>
+        <textarea name='message' rows='10' cols='50'>의견을 남겨주세요.</textarea>
+    </ol>
+      <input type='submit'>
+      <input type='reset'>
+    </form>
+    <br>
+    <br>
+    <a href='index.html'>
+      <input type='button' value="돌아가기">
+    </a>
+  </body>
+</html>
