@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>현재 시간</title>
+  </head>
+  <body>
+    현재 시간:<span id="time"></span>
+    <script>
+      var tm = document.getElementById('time');
+      var tick = function() {
+        var now = new Date();
+        var time = now.getHours() + '시 ' +
+                   now.getMinutes() + '분 '+
+                   now.getSeconds() + '초';
+        tm.innerText = time;
+      }
+      setInterval(tick, 1000);
+
+    </script>
+  </body>
+</html>
