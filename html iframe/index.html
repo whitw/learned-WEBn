@@ -4,15 +4,22 @@
 		<meta charset="utf-8">
 		<title>자기소개</title>
 	</head>
-	<body bgcolor="#F0F2F7">
-		<h1 style='text-align:center'><font face="궁서">누구세요?</font></h1>
-		<img src="myself.jpg" width=600px><br>
-		안녕하세요. 김상현입니다. 잘 부탁드립니다.
+	<body>
+		<link rel="stylesheet" href="index.css">
+		<link rel>
+		<div class="dropdown">
+			<h1 class="align-center dropdown-invisible">누구세요?</h1>
+			<div class="dropdown-invisible">(마우스를 올려보세요.)</div>
+			<div class="dropdown-visible">
+				<h1 class="align-center dropdown-visible">저는...</h1>
+				<img class="align-center dropdown-visible" src="myself.jpg" width=600px><br>
+				안녕하세요. 김상현입니다. 잘 부탁드립니다.
+			</div>
+		</div>
 		<hr align=center size=1 color="#C05050">
 		<p>
 			자기소개하기:
-		<div>
-			<table border='3' align=left width=600px>
+			<table width=600px class='border'>
 				<tr>
 					<th>속성</th>
 					<th>값</th>
@@ -32,7 +39,8 @@
 				<tr>
 					<td>과</td>
 					<td><a href="https://cse.cau.ac.kr/swc/sub01/sub0101.php">SW</a></td>
-					<tr>
+				</tr>
+				<tr>
 					<td>학년</td>
 					<td>4</td>
 				</tr>
@@ -45,30 +53,31 @@
 					</td>
 				</tr>
 			</table>
-		</div><br><br><br><br><br><br><br><br><br><br><br>
-	<p>
-		수업 과제물 모음집:
-		<table border='3'>
-			<tr>
-				<th>주차</th> <th>링크</th> <th>내용</th>
-			</tr>
-			<tr>
-				<td>과제3</td>
-				<td><a href="index.html">&nbsp;⭕&nbsp;</a></td>
-				<td>자기소개 홈페이지를 만드세요.(이 페이지)</td>
-			</tr>
-			<tr>
-				<td>과제4</td>
-				<td><a href="#">&nbsp;❌&nbsp;</a></td>
-				<td>설문조사 페이지를 만드세요.</td>
-			</tr>
-			<tr>
-				<td>과제5</td>
-				<td><a href="#">&nbsp;❌&nbsp;</a></td>
-				<td>홈페이지에 CSS를 적용하세요.</td>
-			</tr>
-		</table>
-	<p>
+		</p>
+		<p>
+			<table class='border' id="table-hw">
+				수업 과제물 모음집:
+				<tr>
+					<th>주차</th> <th>링크</th> <th>내용</th>
+				</tr>
+				<tr>
+					<td>과제3</td>
+					<td><a href="index.html">&nbsp;⭕&nbsp;</a></td>
+					<td>자기소개 홈페이지를 만드세요.(이 페이지)</td>
+				</tr>
+				<tr>
+					<td>과제4</td>
+					<td><a href="#">&nbsp;❌&nbsp;</a></td>
+					<td>설문조사 페이지를 만드세요.</td>
+				</tr>
+				<tr>
+					<td>과제5</td>
+					<td><a href="#">&nbsp;❌&nbsp;</a></td>
+					<td>홈페이지에 CSS를 적용하세요.</td>
+				</tr>
+			</table>
+		</p>
+		<p>
 		<!--Github 프로젝트 소개:
 		<table border=3>
 			<tr>
@@ -76,20 +85,21 @@
 			</tr>
 		</table>
 	-->
-	좋아하는 곳:<br>
-	<table>
-		<tr>
-			<td>
-				<img src="home.jpg" width="400px">
-			</td>
-			<td>
-				<img src="sea.jpg" width="400px">
-			</td>
-		</tr>
-		<tr>
-			<td>(집앞에서, 언젠가)</td>
-			<td>(외할아버지댁 앞바다에서. 17년에)</td>
-		</tr>
-	</table>
+		</p>
+		좋아하는 곳:<br>
+		<table>
+			<tr>
+				<td>
+					<img src="home.jpg" width="400px">
+				</td>
+				<td>
+					<img src="sea.jpg" width="400px">
+				</td>
+			</tr>
+			<tr>
+				<td>(집앞에서, 언젠가)</td>
+				<td>(외할아버지댁 앞바다에서. 17년에)</td>
+			</tr>
+		</table>
 	</body>
 </html>
